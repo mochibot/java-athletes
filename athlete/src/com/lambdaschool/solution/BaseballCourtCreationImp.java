@@ -1,12 +1,12 @@
 package com.lambdaschool.solution;
 
-public class BaseballAthleteCreationImp implements AthleteCreator
+public class BaseballCourtCreationImp implements CourtCreator
 {
     @Override
-    public void displayAthlete()
+    public void displayCourt()
     {
         System.out.println("************");
-        System.out.println("Baseball Athlete");
+        System.out.println("Baseball Field");
         System.out.println("************\n");
     }
 }

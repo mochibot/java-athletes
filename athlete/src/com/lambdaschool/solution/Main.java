@@ -17,7 +17,6 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
-
         // Create a Rugby Athlete
         injector = new RugbyAthleteCreationInjector();
         app = injector.getProcess();
@@ -28,5 +27,9 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
+        //for stretch
+        injector = new BaseballCourtCreationInjector();
+        app = injector.getProcess();
+        app.displayCourt();
     }
 }
